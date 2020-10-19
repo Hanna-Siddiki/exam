@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.main-baner{
+    background-image: url(Image.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+.main-baner-content{
+    padding-top: 265px;
+    padding-bottom: 150px;
+}
+
+.general-title h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+.general-title h2:hover{
+    transition: 0.8s;
+    font-size:58px
+}
+
+.general-title h4{
+    font-size: 22px;
+    margin-bottom: 49px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    
+}
+.general-title h4:hover{
+    transition: 0.8s;
+    font-size: 30px;
+}
+.skroll{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    float: right;
+    margin-top: 5px;
+}
+.navigation-text{
+    float: left;
+    font-size: 24px;
+}
+.navigation{
+    padding: 30px 0;
+    background: #5474FD;
+}
+.clearfix{
+    clear: both;
+}
+.nav-menu a{
+    padding: 0 30px;
+   text-decoration: none;
+   color: white;
+}
+/* FORMA */
+.forma{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 120px;
+   
+}
+input[type=text]{
+    width: 40%;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input[type=submit]{
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    background: #5474FD;
+    color: white;
+    position: absolute;
+}
+/* FORMA END*/
+
+
+
+/* BANNER-2 */
+.main-baner-two{
+    background-image: url(Rectangle\ 7.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    height: 685px;
+}
+
+
+.image-small{
+    padding-left: 700px; 
+    padding-right: 105px; 
+}
+.image-small-two{
+   padding-left: 550px;
+   padding-right: 105px;
+   letter-spacing: 3px;
+}
+
+.Why-Choose-Us h2{
+    font-size: 36px;
+    text-align: left;
+    padding-bottom: 62px;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+}
+
+.Why-Choose-Us p{
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 47px;
+    font-weight: 400;
+}
+
+.row{
+    margin-left:-15px;
+	margin-right:-15px;
+}
+.Why-Choose-Us{
+    padding-top: 204px;
+    padding-left: 50px;
+}
+.img{
+    float: right;
+    padding: 120px 0px; 
+}
+
+.col-40{
+    box-sizing: border-box;
+    float: left;
+	width:50%;
+}
+.col-50{
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+}
+.btn-1{
+    margin-left: 50px;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    background: #5474FD;
+    color: white;
+    position: absolute;
+    letter-spacing: 2px;
+}
+
+.navigation-two{
+    background-color: #333333;
+    height: 269px;
+}
+.nav-menu-two{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-top: 167px;
+    align-items: center;
+}
+.nav-menu-two a{
+   text-decoration: none;
+   color: white;
+}
+
+
+
+.background-2{
+    background-image: url(Rectangle\ 414.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    color: white;
+}
+  
+
+.bckgr{
+    background-color: #232323;
+    opacity: 0.9019607843137255;
+    float: left;
+    height: 372px;
+    width: 541px;
+}
+.spain-content{
+    box-sizing: border-box;
+    float: left;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+.btn-2{
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    background: #5474FD;
+    color: white;
+    position: absolute;
+    letter-spacing: 2px;
+    margin-top: 47px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.background-3{
+    background-image: url(Rectangle\ 4141.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    color: white;
+}
+.background-4{
+    background-image: url(Rectangle\ 4142.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 731px;
+    color: white;
+} 
+.spain-content  h4{
+    margin-top: 51px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.spain-content h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.spain-content p{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.content-spain{
+    padding-left: 31px;
+}
+.spain-content-right h4{
+    margin-top: 51px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.spain-content-right h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.spain-content-right p{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.spain-content-right{
+    box-sizing: border-box;
+    float: right;
+    padding-top: 200px;
+    padding-right: 150px;
+}
+
+
+
+.bckgr-3{
+    background-color: #333333;
+    float: left;
+    height: 285px;
+    width: 666px;
+}
+.block-4{
+    float: left;
+    padding-top: 150px;
+    padding-left: 38px;
+}
+
+.all-content{
+   float: right;
+   padding-top: 150px;
+   padding-right: 50px;
+   font-family: 'Josefin Sans', sans-serif;
+   letter-spacing: 1px;
+ 
+}
+.block-container h4{
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.block-container p{
+    padding-top: 33px;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.about-us{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Aleo', serif;
+}
+/* FOOTER */
+.footer{
+    background-color: #232323;
+    height: 269px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 24px ;
+    padding-top: 120px;
+}
+.footer-content p{
+    font-size: 16px;
+    padding-top: 15px;
+}
